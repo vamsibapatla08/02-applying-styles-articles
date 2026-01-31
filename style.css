@@ -1,0 +1,133 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #222;
+  margin: 0;
+}
+
+/* Main Content */
+main {
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+/* Featured Article */
+.featured-article {
+  background-color: #fff;
+  border-left: 5px solid #2c3e50;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.featured-article h2 {
+  font-size: 1.8em;
+  color: #2c3e50;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Regular Articles */
+.regular-article {
+  background-color: #fff;
+  border-left: 5px solid #95a5a6;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.regular-article h2 {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Article Metadata */
+.article-metadata {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 15px 0;
+  display: flex;
+  gap: 20px;
+  font-size: 0.95em;
+  color: #777;
+  flex-wrap: wrap;
+}
+
+.article-metadata li {
+  margin: 0;
+}
+
+/* Article Description */
+article p {
+  margin: 15px 0;
+  color: #555;
+  font-size: 1em;
+}
+
+/* Read More Link */
+.read-more {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+  color: #34495e;
+}
+
+/* Footer */
+footer {
+  max-width: 800px;
+  margin: 40px auto 0;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.more-articles h3 {
+  font-size: 1.3em;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.more-articles ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.more-articles li {
+  margin-bottom: 10px;
+}
+
+.more-articles a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.more-articles a:hover {
+  text-decoration: underline;
+  color: #34495e;
+}
